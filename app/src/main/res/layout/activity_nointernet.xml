@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".Nointernet">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/img_no_job"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/ic_offline_wifi" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:singleLine="true"
+            android:text="No Internet Connection"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:maxLines="2"
+            android:text="Check your internet connection and Enbale your wifi / mobile data"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/tvOpenSetting"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="40dp"
+            android:background="@color/purple_200"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:singleLine="true"
+            android:text="@string/open_setting"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="13dp"
+            android:textStyle="normal" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
